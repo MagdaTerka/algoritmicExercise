@@ -1,0 +1,7 @@
+table, th, td {
+    border: 1px solid black;
+  }
+td {width: 30px;}
+tr {height:30px;}
+html { height: 100%; }
+body { min-height: 100%; }
