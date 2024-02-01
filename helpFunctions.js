@@ -17,6 +17,7 @@ function endGame(player,i,j,k,type){
                         document.getElementById("td"+x+y).style.backgroundColor=green;
                         document.getElementById("td"+x+y).style.color=dGreen;
                     }
+                    break;
 
                 case 'c':
 
@@ -26,7 +27,7 @@ function endGame(player,i,j,k,type){
                     document.getElementById("td"+x+y).style.backgroundColor=green;
                     document.getElementById("td"+x+y).style.color=dGreen;
                 }
-
+                break;
                 case 'd':
                 if (k==1){
                     for(let n=0;n<5;n++){
@@ -44,6 +45,7 @@ function endGame(player,i,j,k,type){
                         document.getElementById("td"+x+y).style.color=dGreen;
                     }
                 }
+                    break;
 
             }
             setTimeout(function() {
@@ -63,7 +65,7 @@ function endGame(player,i,j,k,type){
                     document.getElementById("td"+x+y).style.backgroundColor=red;
                     document.getElementById("td"+x+y).style.color=dRed;
                 }
-
+            break;
             case 'c':
 
             for(let n=0;n<5;n++){
@@ -72,7 +74,7 @@ function endGame(player,i,j,k,type){
                 document.getElementById("td"+x+y).style.backgroundColor=red;
                 document.getElementById("td"+x+y).style.color=dRed;
             }
-
+            break;
             case 'd':
             if (k==1){
                 for(let n=0;n<5;n++){
@@ -90,6 +92,7 @@ function endGame(player,i,j,k,type){
                     document.getElementById("td"+x+y).style.color=dRed;
                 }
             }
+                break;
 
         }
         setTimeout(function() {
